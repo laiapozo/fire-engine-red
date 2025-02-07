@@ -1,3 +1,6 @@
+:root {
+  --main-color: #cc212a;
+}
 body {
   font-family: "Montserrat";
 }
@@ -14,5 +17,32 @@ body {
 
 .code,
 .title {
-  color: #cc212a;
+  color: var(--main-color);
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  padding: 30px;
+  border-top: solid 2px var(--main-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.letter {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: var(--main-color);
+  padding: 10px 13px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 58px;
+}
+
+.copy {
+  text-transform: uppercase;
+  font-size: 12px;
 }

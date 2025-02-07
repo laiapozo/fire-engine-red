@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+  .footer {
+    padding: 20px;
+    border-top: solid 2px var(--main-color);
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .letter {
+    font-size: 12px;
+    position: static;
+  }
+
+  .copy {
+    font-size: 10px;
+  }
+}
