@@ -1,0 +1,18 @@
+body {
+  font-family: "Montserrat";
+}
+
+.main {
+  height: 100vh;
+  text-align: center;
+  align-content: center;
+}
+
+.code {
+  text-transform: uppercase;
+}
+
+.code,
+.title {
+  color: #cc212a;
+}
